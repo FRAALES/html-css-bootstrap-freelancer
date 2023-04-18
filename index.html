@@ -14,14 +14,16 @@
     <!-- Qui ci va l'header -->
     <header>
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between py-3">
                 <div class="col-4">
                     START BOOTSTRAP
                 </div>
-                <div class="col-4">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="col-1">
+                    <a class="burger-menu" href="">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
                 </div>
-              </div>
+            </div>
             
         </div>
     </header>
@@ -34,11 +36,11 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col">
-                    <img src="img/avatar.svg" alt="">
+                    <img class="img-jumbo" src="img/avatar.svg" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="title-jumbo col">
                     START BOOTSTRAP
                 </div>
             </div>
@@ -79,32 +81,32 @@
             
                 <div class="row">
                     <div class="col">
-                        <img src="img/cabin.png" alt="">
+                        <img class="img-main" src="img/cabin.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="img/cake.png" alt="">
+                        <img class="img-main" src="img/cake.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="img/circus.png" alt="">
+                        <img class="img-main" src="img/circus.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="img/game.png" alt="">
+                        <img class="img-main" src="img/game.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="img/safe.png" alt="">
+                        <img class="img-main" src="img/safe.png" alt="">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <img src="img/submarine.png" alt="">
+                        <img class="img-main" src="img/submarine.png" alt="">
                     </div>
                 </div>
             </div>
@@ -145,7 +147,7 @@
         </section>
 
         <!-- Qui inizia la sezione CONTACT ME-->
-        <section>
+        <form>
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
@@ -160,10 +162,11 @@
 
                
 
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="button-addon2">
-                    
-                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" readonly class="form-control-plaintext" id="floatingEmptyPlaintextInput" placeholder="name@example.com">
+                    <label for="floatingEmptyPlaintextInput">Empty input</label>
+                  </div>
+                  
 
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="E-mail address" aria-label="Name" aria-describedby="button-addon2">
@@ -182,11 +185,13 @@
 
            
             </div>
-            <button type="button" class="btn btn-light verde">
-                 Send
-            </button>
+            <div class="col-11">
+                <button type="button" class="btn btn-light verde">
+                    Send
+                </button>
+            </div>
 
-        </section>
+        </form>
     </main>
 
 
@@ -195,7 +200,7 @@
     <footer>
         <!-- Footer parte 1  -->
 
-        <section>
+        <section id="footer-1">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
@@ -214,7 +219,7 @@
                         AROUND THE WEB
                     </div>
                 </div>
-                <div class="row">
+                <div class="row ">
                     <div class="col">
                         <i class="fa-brands fa-facebook-f"></i>
                     </div>
@@ -248,7 +253,7 @@
         </section>
 
         <!-- Footer parte 2  -->
-        <section>
+        <section id="footer-2">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
